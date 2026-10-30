@@ -108,10 +108,10 @@ export default function EstimateSection({ selection, onChange }: EstimateSection
             </div>
             {trim === 'techno' && colorId === 'blue' && <p className="estimate-warning"><Info size={14}/> 새틴 녹턴 블루는 트림별 선택 가능 여부를 확인해야 합니다.</p>}
           </fieldset>
-          <fieldset className="estimate-field"><legend><span>02</span> 계약기간</legend><OptionGroup name="계약기간" options={termOptions} value={termMonths} onChange={value => update('termMonths', value)} label={value => `${value / 12}년`}/></fieldset>
-          <fieldset className="estimate-field"><legend><span>03</span> 연간 약정 주행거리</legend><OptionGroup name="연간 약정 주행거리" options={mileageOptions} value={annualMileageKm} onChange={value => update('annualMileageKm', value)} label={mileageLabel}/></fieldset>
-          <fieldset className="estimate-field"><legend><span>04</span> 보증금</legend><OptionGroup name="보증금 비율" options={percentOptions} value={depositPercent} onChange={value => update('depositPercent', value)} label={value => `${value}%`}/><p className="estimate-helper">만기 시 조건에 따라 반환될 수 있는 예치금</p></fieldset>
-          <fieldset className="estimate-field estimate-field-last"><legend><span>05</span> 선납금</legend><OptionGroup name="선납금 비율" options={percentOptions} value={prepaymentPercent} onChange={value => update('prepaymentPercent', value)} label={value => `${value}%`}/><p className="estimate-helper">월 렌트료 선납 · 일반적으로 미반환</p></fieldset>
+          <fieldset className="estimate-field"><legend><span>02</span> 보증금</legend><OptionGroup name="보증금 비율" options={percentOptions} value={depositPercent} onChange={value => update('depositPercent', value)} label={value => `${value}%`}/><p className="estimate-helper">만기 시 조건에 따라 반환될 수 있는 예치금</p></fieldset>
+          <fieldset className="estimate-field"><legend><span>03</span> 선납금</legend><OptionGroup name="선납금 비율" options={percentOptions} value={prepaymentPercent} onChange={value => update('prepaymentPercent', value)} label={value => `${value}%`}/><p className="estimate-helper">월 렌트료 선납 · 일반적으로 미반환</p></fieldset>
+          <fieldset className="estimate-field"><legend><span>04</span> 연간 약정 주행거리</legend><OptionGroup name="연간 약정 주행거리" options={mileageOptions} value={annualMileageKm} onChange={value => update('annualMileageKm', value)} label={mileageLabel}/></fieldset>
+          <fieldset className="estimate-field estimate-field-last"><legend><span>05</span> 계약기간</legend><OptionGroup name="계약기간" options={termOptions} value={termMonths} onChange={value => update('termMonths', value)} label={value => `${value / 12}년`}/></fieldset>
           <div className="estimate-form-footer">
             <button type="button" className="estimate-apply-button" onClick={() => setConsultationOpen(true)}>무료 견적 상담 신청하기 <ArrowRight size={19}/></button>
             <p>예상 금액은 공개 견적과 내부 조건별 추정치를 조합한 참고치입니다. 무제한 주행은 별도 상담이 필요하며, 실제 금액은 옵션·보험·렌트사·심사·프로모션에 따라 달라집니다.</p>
