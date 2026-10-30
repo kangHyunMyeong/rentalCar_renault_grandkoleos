@@ -2,3 +2,4 @@
 # Allows crawlers to fetch index.html and read the meta robots noindex directive.
 User-agent: *
 Allow: /
+
