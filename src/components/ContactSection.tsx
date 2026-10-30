@@ -31,7 +31,7 @@ export default function ContactSection() {
   return <section id="faq" className="contact-section" aria-label="그랑 콜레오스 장기렌트 자주 묻는 질문">
     <div className="contact-faq-wrap">
       <div className="contact-inner contact-faq-grid">
-        <div className="contact-faq-title"><span className="contact-faq-kicker"><CircleHelp size={17} aria-hidden="true" /> FREQUENTLY ASKED QUESTIONS</span><h2>궁금하신 점,<br/><span>여기서 확인하세요.</span></h2><p>그랑 콜레오스 장기렌트를 알아볼 때 자주 궁금해하는 내용을 정리했습니다.</p></div>
+        <div className="contact-faq-title"><span className="contact-faq-kicker"><CircleHelp size={17} aria-hidden="true" /> FREQUENTLY ASKED QUESTIONS</span><h2>궁금하신 점,<br/><span>여기서 확인하세요.</span></h2><p>월 렌트료부터 보증금·선납금, 계약 종료 후 인수까지.<br/>장기렌트 계약 전 자주 묻는 내용을 정리했습니다.</p></div>
         <div className="contact-faq-list">
           {faqItems.map((item, index) => {
             const isOpen = openFaq === index;

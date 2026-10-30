@@ -119,15 +119,15 @@ export default function ReviewsSection() {
       <header className="reviews-intro">
         <div className="reviews-kicker"><span aria-hidden="true" /> 05 / CUSTOMER REVIEWS</div>
         <div className="reviews-heading-layout">
-          <h2 id="reviews-title">좋은 선택의 순간부터,<br /><span>그다음 이야기까지.</span></h2>
-          <p>그랑 콜레오스와 함께하는 일상의 순간들.<br />실제 고객 후기를 확인해주세요.</p>
+          <h2 id="reviews-title">그랑 콜레오스 장기렌트,<br /><span>고객 후기를 확인해보세요.</span></h2>
+          <p>상담부터 차량 인수까지,<br />그랑 콜레오스 장기렌트 이용 경험을 살펴보세요.</p>
         </div>
       </header>
 
       <div className="reviews-carousel">
         <div className="reviews-carousel-heading">
           <div className="reviews-carousel-context">
-            <h3>그랑 콜레오스 후기</h3>
+            <h3>그랑 콜레오스 장기렌트 후기</h3>
           </div>
           <div className="reviews-carousel-controls" aria-label="후기 카드 슬라이드 조작">
             <span className="reviews-carousel-count" aria-live="polite"><strong>{String(activeIndex + 1).padStart(2, '0')}</strong> / {String(reviewCards.length).padStart(2, '0')}</span>
