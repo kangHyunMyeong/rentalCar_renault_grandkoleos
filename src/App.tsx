@@ -149,24 +149,24 @@ export default function App() {
         <div className="benefits-inner">
           <div className="benefits-heading">
             <div className="benefits-label"><span className="benefits-label-line"/> 02 / A SMARTER WAY TO DRIVE</div>
-            <h2 id="benefits-title">좋은 차를 누리는 방법,<br/><span>더 유연해질 수 있습니다.</span></h2>
-            <p className="benefits-lead">그랑 콜레오스를 만나는 또 하나의 방법.<br/>내 라이프스타일과 예산에 맞춰 장기렌트 조건을 살펴보세요.</p>
+            <h2 id="benefits-title">그랑 콜레오스 장기렌트,<br/><span>비용과 조건을 쉽게 비교하세요.</span></h2>
+            <p className="benefits-lead">보증금·선납금부터 예상 월 렌트료, 보험·세금까지<br/>내 예산에 맞는 장기렌트 조건을 확인해보세요.</p>
           </div>
 
           <div className="benefit-cards">
             <article className="benefit-card benefit-card-primary">
-              <div className="benefit-topline"><span>01 / INITIAL COST</span><WalletCards size={25} strokeWidth={1.3} aria-hidden="true"/></div>
-              <div className="benefit-content"><span className="benefit-index" aria-hidden="true">01</span><h3>시작 비용,<br/>상황에 맞게.</h3><p>보증금과 선납금 조건을 비교하고, 나의 초기 자금 계획에 맞는 방식을 선택해보세요.</p></div>
+              <div className="benefit-topline"><span>01 / 초기 비용</span><WalletCards size={25} strokeWidth={1.3} aria-hidden="true"/></div>
+              <div className="benefit-content"><span className="benefit-index" aria-hidden="true">01</span><h3>초기 비용,<br/>얼마나 필요할까요?</h3><p>보증금과 선납금 선택에 따라 처음 필요한 비용이 달라집니다. 내 자금 계획에 맞는 조건을 비교해보세요.</p></div>
               <span className="benefit-keyword">INITIAL PAYMENT OPTIONS</span>
             </article>
             <article className="benefit-card benefit-card-paper">
-              <div className="benefit-topline"><span>02 / MONTHLY PLAN</span><CalendarRange size={25} strokeWidth={1.3} aria-hidden="true"/></div>
-              <div className="benefit-content"><span className="benefit-index" aria-hidden="true">02</span><h3>월 지출은<br/>더 선명하게.</h3><p>계약기간과 약정 주행거리 등 주요 조건을 미리 정리하고, 상담을 통해 렌트료를 비교해보세요.</p></div>
+              <div className="benefit-topline"><span>02 / 월 렌트료</span><CalendarRange size={25} strokeWidth={1.3} aria-hidden="true"/></div>
+              <div className="benefit-content"><span className="benefit-index" aria-hidden="true">02</span><h3>월 렌트료,<br/>얼마일까요?</h3><p>차량 트림과 계약기간, 연간 주행거리 등에 따라 월 렌트료가 달라집니다. 원하는 조건으로 예상 금액을 확인해보세요.</p></div>
               <span className="benefit-keyword">PERSONALIZED RENTAL PLAN</span>
             </article>
             <article className="benefit-card benefit-card-mist">
-              <div className="benefit-topline"><span>03 / COST COVERAGE</span><ShieldCheck size={25} strokeWidth={1.3} aria-hidden="true"/></div>
-              <div className="benefit-content"><span className="benefit-index" aria-hidden="true">03</span><h3>보험과 세금도<br/>함께 고려.</h3><p>렌트료에 포함되는 보험·자동차세 등의 비용 항목을 상품별 조건에 맞춰 살펴보세요.</p></div>
+              <div className="benefit-topline"><span>03 / 보험·세금</span><ShieldCheck size={25} strokeWidth={1.3} aria-hidden="true"/></div>
+              <div className="benefit-content"><span className="benefit-index" aria-hidden="true">03</span><h3>보험·세금,<br/>어디까지 포함될까요?</h3><p>보험료와 자동차세 등 월 렌트료에 포함되는 항목을 확인해보세요. 상품별 계약 조건에 따라 적용 범위는 달라질 수 있습니다.</p></div>
               <span className="benefit-keyword">ALL-IN-ONE CONSIDERATION</span>
             </article>
           </div>
