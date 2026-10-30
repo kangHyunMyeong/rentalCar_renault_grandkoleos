@@ -57,7 +57,7 @@ export default function EstimateSection({ selection, onChange }: EstimateSection
     <div className="estimate-inner">
       <header className="estimate-intro">
         <div className="estimate-kicker"><span aria-hidden="true"/> 04 / COLOR STUDIO &amp; ESTIMATE</div>
-        <div className="estimate-intro-grid"><h2 id="estimate-title">나만의 그랑 콜레오스,<br/><span>여기서부터 시작.</span></h2><p>마음에 드는 컬러를 고르고,<br/>내 주행 패턴과 예산에 맞는 장기렌트 조건을 선택해보세요.</p></div>
+        <div className="estimate-intro-grid"><h2 id="estimate-title">그랑 콜레오스 장기렌트,<br/><span>예상 월 렌트료를 확인하세요.</span></h2><p>원하는 컬러와 트림을 선택하고,<br/>계약기간·주행거리·초기 비용에 따른 예상 견적을 확인하세요.</p></div>
       </header>
 
       <div className="estimate-workspace">
