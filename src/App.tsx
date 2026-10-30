@@ -183,14 +183,14 @@ export default function App() {
           <div className="highlights-intro">
             <span className="highlights-kicker"><i aria-hidden="true"/> 03 / FORM, SPACE &amp; PERFORMANCE</span>
             <h2 id="highlights-title">디자인에 끌리고,<br/><span>주행에서 확신하다.</span></h2>
-            <p>도로 위의 존재감부터 실내의 세심한 디테일까지.<br/>그랑 콜레오스가 제안하는 새로운 일상의 기준.</p>
+            <p>세련된 외관부터 넉넉한 실내 공간, 주행 성능까지.<br/>그랑 콜레오스의 다양한 매력을 확인해보세요.</p>
           </div>
 
           <div className="highlight-exterior">
             <img className="highlight-exterior-image" src="/assets/grand_koleos_01.webp" alt="바다를 배경으로 서 있는 화이트 그랑 콜레오스의 전면과 측면" width={1280} height={720} loading="lazy" decoding="async" />
             <div className="highlight-exterior-caption">
               <span>01 / EXTERIOR DESIGN</span>
-              <h3>멀리서도, 단번에.</h3>
+              <h3>한눈에 돋보이는 디자인.</h3>
               <p>균형 잡힌 SUV의 실루엣과 정교한 전면 디테일이 완성하는 선명한 존재감.</p>
             </div>
           </div>
